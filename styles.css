@@ -4,6 +4,54 @@ body {
     margin: 0;
     background-color: #1b1b32;
     color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    width: 60vw;
+}
+
+fieldset {
+    border: 0;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+.inline{
+    width: unset;
+    margin-right: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    vertical-align: middle;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid;
+    border-color: #0a0a23;
+    min-height: 2em;
+}
+
+fieldset:last-of-type{
+    border-bottom: none;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-right: 0;
 }
 
 label {
